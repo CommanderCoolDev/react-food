@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/react-food">
         <Header />
         <main className="container content">
           <Switch>
